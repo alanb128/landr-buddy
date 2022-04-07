@@ -1,5 +1,6 @@
 # landr-buddy
-Easily upload a website and browse it with a public URL. This project uses [balenaCloud](https://dashboard.balena-cloud.com/) which provides a zero-configuration secure public URL for each device. (The first 10 are free!) This is designed for a Raspberry Pi Zero 2 W or Pi4, but should also work on a Pi 3.
+Easily upload a website (such as one made with [Landr](https://getlandr.io/)) and browse it with a public URL. This project uses [balenaCloud](https://dashboard.balena-cloud.com/) which provides a zero-configuration secure public URL for each device. (The first 10 are free!) This is designed for a Raspberry Pi Zero 2 W or Pi4, but should also work on a Pi 3.
+
 ![buddy](https://raw.githubusercontent.com/alanb128/landr-buddy/main/photo.png)
 
 ## Installation
