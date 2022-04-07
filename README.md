@@ -1,6 +1,6 @@
 # landr-buddy
 Easily upload a website and browse it with a public URL. This project uses [balenaCloud](https://dashboard.balena-cloud.com/) which provides a zero-configuration secure public URL for each device. (The first 10 are free!) This is designed for a Raspberry Pi Zero 2 W or Pi4, but should also work on a Pi 3.
-![buddy](https://raw.githubusercontent.com/alanb128/balena-iaq/main/photo.png)
+![buddy](https://raw.githubusercontent.com/alanb128/landr-buddy/main/photo.png)
 
 ## Installation
 Set up a balenaCloud account, add a fleet and provision a device. Docs for getting started are [here](https://www.balena.io/docs/learn/welcome/introduction/). You can either clone this repo locally and use the [balenaCLI](https://www.balena.io/docs/reference/balena-cli/) to push to your device or use the deploy button below:
