@@ -25,3 +25,11 @@ services:
         - site:/usr/share
         - caddy_data:/data
         - caddy_config:/config
+    utility:
+      build: ./utility
+      restart: always
+      privileged: true
+      volumes:
+      - 'site:/usr/src/app'
+    ports:
+      - "8088:8088"
