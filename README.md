@@ -15,3 +15,5 @@ Select the "caddy" bucket (folder) from the left panel and then upload your site
 
 ## Browse your site
 Either browse directly to the local IP address of your device, or enable the public URL in your balenaCloud dashboard and use that link.
+
+Note: The Caddyfile contained here is for reference only and is not used by the project. In the future I may add a way to modify it and include it in the project.
