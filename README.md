@@ -13,7 +13,7 @@ This project uses Minio to upload files. Browse to the local IP of your device, 
 
 Default username is `myminio` and password is `myminio123`
 
-Select the "caddy" bucket (folder) from the left panel and then upload your site using the "+" icon in the lower left. If you have a lot of files, zipping them and uploading as one is helpful. (If you do that, ssh into the caddy service, go to `/usr/share/caddy` and unzip the file you uploaded.
+Select the "caddy" bucket (folder) from the left panel and then upload your site using the "+" icon in the lower left. If you have a lot of files, zipping them and uploading as one is helpful. (If you do that, ssh into the caddy service, go to `/usr/share/caddy` and unzip the file you uploaded.)
 
 ## Browse your site
 Either browse directly to the local IP address of your device, or enable the public URL in your balenaCloud dashboard and use that link.
