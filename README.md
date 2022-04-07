@@ -19,3 +19,6 @@ Select the "caddy" bucket (folder) from the left panel and then upload your site
 Either browse directly to the local IP address of your device, or enable the public URL in your balenaCloud dashboard and use that link.
 
 Note: The Caddyfile contained here is for reference only and is not used by the project. In the future I may add a way to modify it and include it in the project.
+
+## Utility service
+This service is used to access the shared site folder and perform optional configuration tasks. It also includes the [Minio client](https://docs.min.io/docs/minio-client-quickstart-guide.html). More functionality to come!
