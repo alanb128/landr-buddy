@@ -2,10 +2,14 @@
 Easily upload a website and test with a public URL. This project uses [balenaCloud](https://dashboard.balena-cloud.com/) which provides a zero-configuration secure public URL for each device. (The first 10 are free!) This is designed for a Raspberry Pi Zero 2 W or Pi4, but should also work on a Pi 3.
 
 ## Installation
-Set up a balenaCloud account, add a fleet and provision a device. Docs for getting started are [here](https://www.balena.io/docs/learn/welcome/introduction/).
+Set up a balenaCloud account, add a fleet and provision a device. Docs for getting started are [here](https://www.balena.io/docs/learn/welcome/introduction/). You can either clone this repo locally and use the [balenaCLI](https://www.balena.io/docs/reference/balena-cli/) to push to your device or use the deploy button below:
+
+[![balena deploy button](https://www.balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/alanb128/landr-buddy/)
 
 ## Upload a site 
 This project uses Minio to upload files. Browse to the local IP of your device, port 9000 to access the uploading tool. (i.e. 192.168.1.65:9000 replacing the IP with your device's IP)
+
+Default username is `myminio` and password is `myminio123`
 
 Select the "caddy" bucket (folder) from the left panel and then upload your site using the "+" icon in the lower left. If you have a lot of files, zipping them and uploading as one is helpful. (If you do that, ssh into the caddy service, go to `/usr/share/caddy` and unzip the file you uploaded.
 
